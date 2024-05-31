@@ -6,7 +6,7 @@ function HeroSection({ text }) {
 
   return (
     <div
-      className={`relative z-2 h-[500px] flex flex-col items-center justify-center lg:h-[100vh] ${
+      className={`relative z-2 h-[400px] flex flex-col items-center justify-center lg:h-[100vh] ${
         location.pathname === "/"
           ? "heroImage"
           : location.pathname === "/about"
@@ -24,7 +24,7 @@ function HeroSection({ text }) {
         </div>
       )}
 
-      <p className="text-white headingFont z-10 lg:w-[70vw] w-[90vw] text-[7vw] text-center md:text-[5vw]">
+      <p className="text-white headingFont z-10 lg:w-[70vw] w-[90vw] text-[8vw] text-center md:text-[5vw]">
         {text}.
       </p>
 

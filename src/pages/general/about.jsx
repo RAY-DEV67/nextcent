@@ -9,7 +9,7 @@ function About() {
 
       <div className="mt-[24px] lg:flex justify-center items-center">
         <div className="lg:w-[50%] lg:ml-[24px] flex flex-col items-center lg:items-start">
-          <p className="text-[20px] headingFont w-[90%] lg:text-[2.5vw] lg:text-left lg:w-[90%]">
+          <p className="text-headingSmall headingFont w-[90%] lg:text-[2.5vw] lg:text-left lg:w-[90%]">
             About Us
           </p>
           <p className="text-[16px] my-[16px] w-[90%] lg:text-left lg:w-[70%]">
@@ -32,7 +32,7 @@ function About() {
 
       <div className="mt-[24px] lg:flex lg:flex-row-reverse justify-center items-center">
         <div className="lg:w-[50%] lg:ml-[24px] flex flex-col items-center lg:items-end">
-          <p className="text-[20px] headingFont w-[90%] lg:text-[2.5vw] lg:text-center lg:w-[90%]">
+          <p className="text-headingSmall headingFont w-[90%] lg:text-[2.5vw] lg:text-center lg:w-[90%]">
             Our Mission
           </p>
           <p className="text-[16px] my-[16px] w-[90%] lg:text-left lg:w-[70%]">

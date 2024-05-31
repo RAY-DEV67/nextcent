@@ -12,6 +12,11 @@ export default {
           green: "#16A34A",
         },
       },
+      fontSize: {
+        // Define your custom text sizes here
+        headingSmall: "6vw",
+        headingLarge: "4vw",
+      },
     },
   },
   plugins: [],

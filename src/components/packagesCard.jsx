@@ -18,7 +18,7 @@ function PackagesCard({
       >
         <div className="flex justify-between items-center w-[100%]">
           <p
-            className={`text-[20px] headingFont lg:text-[2vw] ${
+            className={`text-headingSmall headingFont lg:text-[2vw] ${
               packageName === "Premium" ? "text-black" : "text-white"
             }`}
           >
@@ -38,7 +38,7 @@ function PackagesCard({
           {description}
         </p>
         <p
-          className={`text-[20px] font-semibold lg:text-[2vw]  ${
+          className={`text-headingSmall font-semibold lg:text-[2vw]  ${
             packageName === "Premium" ? "text-black" : "text-white"
           }`}
         >
