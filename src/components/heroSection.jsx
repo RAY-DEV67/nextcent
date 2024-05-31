@@ -24,13 +24,13 @@ function HeroSection({ text }) {
         </div>
       )}
 
-      <p className="text-white headingFont z-10 lg:w-[70vw] w-[90vw] text-[6vw] text-center md:text-[5vw]">
+      <p className="text-white headingFont z-10 lg:w-[70vw] w-[90vw] text-[7vw] text-center md:text-[5vw]">
         {text}.
       </p>
 
       <div className="absolute w-[100%] h-[100%] z-5 bg-black opacity-40"></div>
       {location.pathname === "/" && (
-        <div className="flex items-center justify-between z-5 w-[100vw] px-[16px] absolute bottom-8">
+        <div className="items-center justify-between z-5 w-[100vw] px-[16px] absolute bottom-8 hidden lg:flex">
           <div className="flex items-center">
             <p className="text-white bg-custom-green px-[24px] py-[8px] rounded-[20px]">
               Free Trial

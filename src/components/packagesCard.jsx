@@ -14,11 +14,11 @@ function PackagesCard({
       <div
         className={`${
           packageName === "Premium" ? "bg-custom-white" : "bg-custom-gray2"
-        } flex flex-col items-start mt-[16px] w-[65vw] lg:w-[100%] p-[16px] rounded-[10px]`}
+        } flex flex-col items-start mt-[16px] w-[80vw] lg:w-[100%] p-[16px] rounded-[10px]`}
       >
         <div className="flex justify-between items-center w-[100%]">
           <p
-            className={`text-[4vw] headingFont lg:text-[2vw] ${
+            className={`text-[20px] headingFont lg:text-[2vw] ${
               packageName === "Premium" ? "text-black" : "text-white"
             }`}
           >
@@ -38,7 +38,7 @@ function PackagesCard({
           {description}
         </p>
         <p
-          className={`text-[4vw] font-semibold lg:text-[2vw]  ${
+          className={`text-[20px] font-semibold lg:text-[2vw]  ${
             packageName === "Premium" ? "text-black" : "text-white"
           }`}
         >
