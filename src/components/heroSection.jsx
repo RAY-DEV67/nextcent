@@ -24,8 +24,8 @@ function HeroSection({ text }) {
         </div>
       )}
 
-      <p className="text-white z-10 w-[70vw] text-[6vw] text-center md:text-[4vw]">
-        {text}
+      <p className="text-white headingFont z-10 lg:w-[70vw] w-[90vw] text-[6vw] text-center md:text-[5vw]">
+        {text}.
       </p>
 
       <div className="absolute w-[100%] h-[100%] z-5 bg-black opacity-40"></div>

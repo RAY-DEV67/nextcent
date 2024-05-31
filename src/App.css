@@ -38,3 +38,8 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+.headingFont {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}

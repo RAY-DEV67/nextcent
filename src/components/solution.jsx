@@ -7,7 +7,7 @@ import Asterik from "../assets/icons/asterik";
 function Solution() {
   return (
     <div className="text-white flex flex-col items-center px-[16px] mt-[64px]">
-      <p className="text-[4vw] lg:text-[3vw]">Our Solution</p>
+      <p className="text-[4vw] lg:text-[3vw] headingFont">Our Solution</p>
       {/* <p className="text-[3.5vw] lg:text-[2vw] w-[60%] lg:w-[40%] my-[8px]">
         Aiming To Revolutionalizing The Dining Experience
       </p> */}
@@ -45,7 +45,7 @@ function Solution() {
 
       <div className="mt-[24px] lg:flex justify-center items-center">
         <div className="lg:w-[50%] lg:ml-[24px] flex flex-col items-center lg:items-start">
-          <p className="text-[4vw] w-[90%] lg:text-[2.5vw] lg:text-left lg:w-[90%]">
+          <p className="text-[4vw] w-[90%] lg:text-[2.5vw] lg:text-left lg:w-[90%] headingFont">
             Customize your menu boards to power your restaurant.
           </p>
           <p className="text-[16px] my-[16px] w-[90%] lg:text-left lg:w-[70%]">
@@ -64,14 +64,14 @@ function Solution() {
 
       <div className="mt-[24px] flex flex-col lg:flex-row-reverse justify-center items-center">
         <div className="lg:w-[50%] lg:ml-[24px] flex flex-col items-center lg:items-start">
-          <p className="text-[4vw] w-[90%] lg:text-[2.5vw] lg:text-left lg:w-[90%]">
+          <p className="text-[4vw] w-[90%] headingFont lg:text-[2.5vw] lg:text-left lg:w-[90%]">
             Take charge of your sales and make the most of your insights
           </p>
           <p className="text-[14px] my-[16px] w-[90%] lg:text-left lg:w-[70%]">
             ServEase is committed to empowering restaurants with the insight you
             need to make a data driven decision
           </p>
-          <div className="flex flex-row items-start w-[90%]">
+          {/* <div className="flex flex-row items-start w-[90%]">
             <Asterik />
             <div className="ml-[8px] mt-[-2px] lg:mt-[-8px]">
               <p className="text-[3.5vw] w-[100%] text-left lg:text-[1.5vw] lg:text-left">
@@ -84,9 +84,9 @@ function Solution() {
                 inventory management.
               </p>
             </div>
-          </div>
+          </div> */}
 
-          <div className="flex flex-row items-start w-[90%]">
+          {/* <div className="flex flex-row items-start w-[90%]">
             <Asterik />
             <div className="ml-[8px] mt-[-2px] lg:mt-[-8px]">
               <p className="text-[3.5vw] w-[100%] text-left lg:text-[1.5vw] lg:text-left">
@@ -97,9 +97,9 @@ function Solution() {
                 including the most requested customizations and combo deals.
               </p>
             </div>
-          </div>
+          </div> */}
 
-          <div className="flex flex-row items-start w-[90%]">
+          {/* <div className="flex flex-row items-start w-[90%]">
             <Asterik />
             <div className="ml-[8px] mt-[-2px] lg:mt-[-8px]">
               <p className="text-[3.5vw] w-[100%] text-left lg:text-[1.5vw] lg:text-left">
@@ -111,7 +111,7 @@ function Solution() {
                 data by category to see which segments are performing best.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="lg:border-r-[1px]">
           <img
@@ -124,7 +124,7 @@ function Solution() {
 
       <div className="mt-[24px] lg:flex justify-center items-center">
         <div className="lg:w-[50%] lg:ml-[24px] flex flex-col items-center lg:items-start">
-          <p className="text-[4vw] w-[90%] lg:text-[2.5vw] lg:text-left lg:w-[90%]">
+          <p className="text-[4vw] w-[90%] headingFont lg:text-[2.5vw] lg:text-left lg:w-[90%]">
             Experience Swift And Secure Transaction With Ease
           </p>
           <p className="text-[16px] my-[16px] w-[90%] lg:text-left lg:w-[70%]">

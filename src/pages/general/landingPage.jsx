@@ -59,7 +59,7 @@ function LandingPage() {
       <Solution />
 
       <div className="relative z-2 h-[300px] mt-[24px] flex flex-col items-center justify-center inAppImage">
-        <p className="text-custom-white z-10 w-[70vw] text-[7vw] md:text-[4vw]">
+        <p className="text-custom-white z-10 headingFont w-[70vw] text-[7vw] md:text-[4vw]">
           In App Ordering
         </p>
         <p className="text-white z-10 w-[80vw] mt-[16px]">
