@@ -20,6 +20,15 @@ function Footer() {
         </div>
 
         <div className="flex flex-col justify-start items-start mt-[16px]">
+          <p className="lg:text-[1.5vw]">Solutions</p>
+          <p className="mt-[8px] text-[12px]">In-App Ordering</p>
+          <p className="mt-[8px] text-[12px]">Analytic Dashboard</p>
+          <p className="mt-[8px] text-[12px]">Custom Branding</p>
+          <p className="mt-[8px] text-[12px]">Secure Transactions</p>
+          <p className="mt-[8px] text-[12px]">Responsive Menu Board</p>
+        </div>
+
+        <div className="flex flex-col justify-start items-start mt-[16px]">
           <p className="lg:text-[1.5vw]">Support</p>
           <p className="mt-[8px] text-[12px]">Help center</p>
           <p className="mt-[8px] text-[12px]">FAQ</p>
