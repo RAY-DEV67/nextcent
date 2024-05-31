@@ -13,8 +13,8 @@ function PackagesCard({
     <div className="">
       <div
         className={`${
-          packageName === "Premium" ? "bg-custom-white" : "bg-custom-gray2"
-        } flex flex-col items-start mt-[16px] w-[80vw] lg:w-[100%] p-[16px] rounded-[10px]`}
+          packageName === "Premium" ? "bg-custom-white shadow-custom-green" : "bg-custom-gray2 shadow-white"
+        } flex flex-col items-start shadow mt-[16px] w-[80vw] lg:w-[100%] p-[16px] rounded-[10px]`}
       >
         <div className="flex justify-between items-center w-[100%]">
           <p

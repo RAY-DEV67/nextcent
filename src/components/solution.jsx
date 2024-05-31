@@ -45,8 +45,8 @@ function Solution() {
         />
       </div>
 
-      <div className="mt-[40px] lg:flex justify-center items-center">
-        <div className="lg:w-[50%] lg:ml-[24px] flex flex-col items-center lg:items-start">
+      <div className="mt-[40px] lg:flex justify-center items-center lg:w-[90vw]">
+        <div className="lg:w-[50%] flex flex-col items-center lg:items-start">
           <p className="text-headingSmall w-[90%] lg:text-[2.5vw] lg:text-left lg:w-[90%] headingFont">
             Customize your menu boards to power your restaurant.
           </p>
@@ -55,21 +55,21 @@ function Solution() {
             dining experience and streamline restaurant operations.
           </p>
         </div>
-        <div className="lg:border-l-[1px]">
+        <div className="lg:border-l-[1px] flex flex-col items-center lg:items-end lg:w-[50%]">
           <img
             src={solution1}
             alt="Customize your menu board"
-            className="w-[500px] h-[600px] rounded-[20px] lg:ml-[32px]"
+            className="w-[500px] h-[600px] rounded-[20px]"
           />
         </div>
       </div>
 
-      <div className="mt-[40px] flex flex-col lg:flex-row-reverse justify-center items-center">
-        <div className="lg:w-[50%] lg:ml-[24px] flex flex-col items-center lg:items-start">
+      <div className="mt-[40px] flex flex-col lg:flex-row-reverse justify-center items-center lg:w-[90vw]">
+        <div className="lg:w-[50%] flex flex-col items-center">
           <p className="text-headingSmall w-[90%] headingFont lg:text-[2.5vw] lg:text-left lg:w-[90%]">
             Take charge of your sales and make the most of your insights
           </p>
-          <p className="text-[14px] my-[16px] w-[90%] lg:text-left lg:w-[70%]">
+          <p className="text-[14px] my-[16px] w-[90%] lg:text-left">
             ServEase is committed to empowering restaurants with the insight you
             need to make a data driven decision
           </p>
@@ -115,17 +115,17 @@ function Solution() {
             </div>
           </div> */}
         </div>
-        <div className="lg:border-r-[1px]">
+        <div className="lg:border-r-[1px] flex flex-col items-center lg:w-[50%]">
           <img
             src={solution2}
             alt="Built in analytic tools"
-            className="w-[500px] h-[600px] rounded-[20px] lg:mr-[32px]"
+            className="w-[500px] h-[600px] rounded-[20px]"
           />
         </div>
       </div>
 
-      <div className="mt-[40px] lg:flex justify-center items-center">
-        <div className="lg:w-[50%] lg:ml-[24px] flex flex-col items-center lg:items-start">
+      <div className="mt-[40px] lg:flex justify-center items-center lg:w-[90vw]">
+        <div className="lg:w-[50%] flex flex-col items-center lg:items-start">
           <p className="text-headingSmall w-[90%] headingFont lg:text-[2.5vw] lg:text-left lg:w-[90%]">
             Experience Swift And Secure Transaction With Ease
           </p>
@@ -136,11 +136,11 @@ function Solution() {
             ensure that all transactions are safe, efficient, and reliable.
           </p>
         </div>
-        <div className="lg:border-l-[1px]">
+        <div className="lg:border-l-[1px] flex flex-col items-center lg:items-end lg:w-[50%]">
           <img
             src={solution3}
             alt="Built in secure payment option"
-            className="w-[500px] h-[600px] rounded-[20px] lg:ml-[32px]"
+            className="w-[500px] h-[600px] rounded-[20px]"
           />
         </div>
       </div>
