@@ -3,22 +3,19 @@ import HeroSection from "../../components/heroSection";
 import Packages from "../../components/packages";
 import Solution from "../../components/solution";
 import Footer from "../../components/footer";
+import SlidUpAnimatedDiv from "../../components/slideUpAnimation";
 
 function LandingPage() {
   const [packageFrequency, setpackageFrequency] = useState("Monthly");
   const [standardPrice, setstandardPrice] = useState("N50,000");
   const [premiumPrice, setpremiumPrice] = useState("N100,000");
   const [enterprisePrice, setenterprisePrice] = useState("N150,000");
-  const [formerStandardPrice, setformerStandardPrice] = useState("N50,000");
-  const [formerPremiumPrice, setformerPremiumPrice] = useState("N100,000");
-  const [formerEnterprisePrice, setformerEnterprisePrice] =
-    useState("N150,000");
 
   return (
     <div className="bg-custom-black">
       <HeroSection text="Creating A Unique Dining Experience For Everyone" />
 
-      <div className="my-[24px] flex flex-col items-center">
+      <div className="mb-[24px] mt-[40px] flex flex-col items-center">
         <div className="flex w-[250px] justify-between">
           <p
             onClick={() => {
@@ -58,10 +55,15 @@ function LandingPage() {
 
       <Solution />
 
-      <div className="relative z-2 h-[300px] mt-[24px] flex flex-col items-center justify-center inAppImage">
-        <p className="text-custom-white z-10 headingFont w-[70vw] text-[7vw] md:text-[4vw]">
-          In App Ordering
-        </p>
+      <div className="relative z-10 h-[300px] mt-[24px] flex flex-col items-center justify-center inAppImage">
+        <div className="z-10">
+          <SlidUpAnimatedDiv type="text" showType="showtext">
+            <p className="text-custom-white headingFont w-[70vw] text-[7vw] md:text-[4vw]">
+              In App Ordering
+            </p>
+          </SlidUpAnimatedDiv>
+        </div>
+
         <p className="text-white z-10 w-[80vw] mt-[16px]">
           Simplify the order placement process with a few taps, and experience
           fine dining with ease.

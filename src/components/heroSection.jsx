@@ -1,12 +1,13 @@
 import { Link, useLocation } from "react-router-dom";
 import Packages from "./packages";
+import SlidUpAnimatedDiv from "./slideUpAnimation";
 
 function HeroSection({ text }) {
   const location = useLocation();
 
   return (
     <div
-      className={`relative z-2 h-[400px] flex flex-col items-center justify-center lg:h-[100vh] ${
+      className={`relative z-2 h-[400px] flex flex-col items-center justify-end lg:justify-center lg:h-[100vh] ${
         location.pathname === "/"
           ? "heroImage"
           : location.pathname === "/about"
@@ -24,9 +25,13 @@ function HeroSection({ text }) {
         </div>
       )}
 
-      <p className="text-white headingFont z-10 lg:w-[70vw] w-[90vw] text-[8vw] text-center md:text-[5vw]">
-        {text}.
-      </p>
+      <div className="z-10">
+        <SlidUpAnimatedDiv type="text" showType="showtext">
+          <p className="text-white headingFont lg:w-[70vw] w-[95vw] text-[8vw] lg:text-center text-left md:text-[5vw]">
+            {text}.
+          </p>
+        </SlidUpAnimatedDiv>
+      </div>
 
       <div className="absolute w-[100%] h-[100%] z-5 bg-black opacity-40"></div>
       {location.pathname === "/" && (

@@ -2,14 +2,17 @@ import SolutionsCard from "./solutionsCard";
 import solution1 from "../assets/images/solution1.jpg";
 import solution2 from "../assets/images/solution2.jpg";
 import solution3 from "../assets/images/solution3.jpg";
-import Asterik from "../assets/icons/asterik";
+import SlidUpAnimatedDiv from "./slideUpAnimation";
 
 function Solution() {
   return (
     <div className="text-white flex flex-col items-center px-[16px] mt-[64px]">
-      <p className="text-headingSmall lg:text-[3vw] headingFont">
-        Our Solution
-      </p>
+      <SlidUpAnimatedDiv type="text" showType="showtext">
+        <p className="text-headingSmall lg:text-[3vw] headingFont">
+          Our Solution
+        </p>
+      </SlidUpAnimatedDiv>
+
       {/* <p className="text-[3.5vw] lg:text-[2vw] w-[60%] lg:w-[40%] my-[8px]">
         Aiming To Revolutionalizing The Dining Experience
       </p> */}
@@ -47,10 +50,13 @@ function Solution() {
 
       <div className="mt-[40px] lg:flex justify-center items-center lg:w-[90vw]">
         <div className="lg:w-[50%] flex flex-col items-center lg:items-start">
-          <p className="text-headingSmall w-[90%] lg:text-[2.5vw] lg:text-left lg:w-[90%] headingFont">
-            Customize your menu boards to power your restaurant.
-          </p>
-          <p className="text-[16px] my-[16px] w-[90%] lg:text-left lg:w-[70%]">
+          <SlidUpAnimatedDiv type="text" showType="showtext">
+            <p className="text-headingSmall lg:text-[2.5vw] text-left lg:w-[90%] headingFont">
+              Customize your menu boards to power your restaurant.
+            </p>
+          </SlidUpAnimatedDiv>
+
+          <p className="text-[16px] my-[16px] text-left lg:w-[70%]">
             ServEase's customizable menu boards are designed to enhance the
             dining experience and streamline restaurant operations.
           </p>
@@ -66,10 +72,13 @@ function Solution() {
 
       <div className="mt-[40px] flex flex-col lg:flex-row-reverse justify-center items-center lg:w-[90vw]">
         <div className="lg:w-[50%] flex flex-col items-center">
-          <p className="text-headingSmall w-[90%] headingFont lg:text-[2.5vw] lg:text-left lg:w-[90%]">
-            Take charge of your sales and make the most of your insights
-          </p>
-          <p className="text-[14px] my-[16px] w-[90%] lg:text-left">
+          <SlidUpAnimatedDiv type="text" showType="showtext">
+            <p className="text-headingSmall headingFont lg:text-[2.5vw] text-left lg:text-right lg:w-[90%]">
+              Take charge of your sales and make the most of your insights
+            </p>
+          </SlidUpAnimatedDiv>
+
+          <p className="text-[14px] my-[16px] text-left lg:text-center lg:w-[90%]">
             ServEase is committed to empowering restaurants with the insight you
             need to make a data driven decision
           </p>
@@ -126,10 +135,13 @@ function Solution() {
 
       <div className="mt-[40px] lg:flex justify-center items-center lg:w-[90vw]">
         <div className="lg:w-[50%] flex flex-col items-center lg:items-start">
-          <p className="text-headingSmall w-[90%] headingFont lg:text-[2.5vw] lg:text-left lg:w-[90%]">
-            Experience Swift And Secure Transaction With Ease
-          </p>
-          <p className="text-[16px] my-[16px] w-[90%] lg:text-left lg:w-[70%]">
+          <SlidUpAnimatedDiv type="text" showType="showtext">
+            <p className="text-headingSmall headingFont lg:text-[2.5vw] text-left lg:w-[90%]">
+              Experience Swift And Secure Transaction With Ease
+            </p>
+          </SlidUpAnimatedDiv>
+
+          <p className="text-[16px] my-[16px] text-left lg:w-[70%]">
             ServEase's is dedicated to providing a seamless and secure payment
             experience for both restaurants and customers. Our platform
             integrates advanced security measures and cutting-edge technology to

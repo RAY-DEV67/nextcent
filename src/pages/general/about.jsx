@@ -1,6 +1,7 @@
 import HeroSection from "../../components/heroSection";
 import aboutUsImage from "../../assets/images/aboutUsImage.jpg";
 import Footer from "../../components/footer";
+import SlidUpAnimatedDiv from "../../components/slideUpAnimation";
 
 function About() {
   return (
@@ -9,9 +10,14 @@ function About() {
 
       <div className="mt-[24px] lg:flex justify-center items-center">
         <div className="lg:w-[50%] lg:ml-[24px] flex flex-col items-center lg:items-start">
-          <p className="text-headingSmall headingFont w-[90%] lg:text-[2.5vw] lg:text-left lg:w-[90%]">
-            About Us
-          </p>
+          <div className="w-[90%] lg:w-[90%]">
+            <SlidUpAnimatedDiv type="text" showType="showtext">
+              <p className="text-headingSmall headingFont w-[90%] lg:text-[2.5vw] lg:text-left lg:w-[90%]">
+                About Us
+              </p>
+            </SlidUpAnimatedDiv>
+          </div>
+
           <p className="text-[16px] my-[16px] w-[90%] lg:text-left lg:w-[70%]">
             At servEase, we are dedicated to revolutionizing the dining
             experience through innovative technology solutions. Our platform
@@ -32,9 +38,14 @@ function About() {
 
       <div className="mt-[24px] lg:flex lg:flex-row-reverse justify-center items-center">
         <div className="lg:w-[50%] lg:ml-[24px] flex flex-col items-center lg:items-end">
-          <p className="text-headingSmall headingFont w-[90%] lg:text-[2.5vw] lg:text-center lg:w-[90%]">
-            Our Mission
-          </p>
+          <div className="w-[90%] lg:w-[90%]">
+            <SlidUpAnimatedDiv type="text" showType="showtext">
+              <p className="text-headingSmall headingFont w-[90%] lg:text-[2.5vw] lg:text-right lg:w-[90%]">
+                Our Mission
+              </p>
+            </SlidUpAnimatedDiv>
+          </div>
+
           <p className="text-[16px] my-[16px] w-[90%] lg:text-left lg:w-[70%]">
             Our mission is to offers a wide range of solutions designed to
             transform the dining experience and optimize restaurant operations.
@@ -54,9 +65,14 @@ function About() {
       </div>
 
       <div className="relative z-2 h-[300px] mt-[24px] flex flex-col items-center justify-center aboutLastImage">
-        <p className="text-white headingFont z-10 w-[80vw] mt-[16px] text-[6vw] lg:text-[3vw]">
-          Take your restaurant service to the next level
-        </p>
+        <div className="z-10 flex flex-col w-[80vw] lg:w-[60%] items-center">
+          <SlidUpAnimatedDiv type="text" showType="showtext">
+            <p className="text-white headingFont z-10 mt-[16px] text-[6vw] lg:text-[3vw]">
+              Take your restaurant service to the next level
+            </p>
+          </SlidUpAnimatedDiv>
+        </div>
+
         <p className="text-white z-[10] mt-[24px] bg-custom-green px-[24px] py-[8px] rounded-[20px]">
           Start Free Trial
         </p>
