@@ -7,7 +7,7 @@ function HeroSection({ text }) {
 
   return (
     <div
-      className={`relative z-2 h-[400px] flex flex-col items-center justify-end lg:justify-center lg:h-[100vh] ${
+      className={`relative z-2 h-[400px] flex flex-col items-center justify-end md:justify-center md:h-[100vh] ${
         location.pathname === "/"
           ? "heroImage"
           : location.pathname === "/about"
@@ -20,14 +20,14 @@ function HeroSection({ text }) {
       }`}
     >
       {location.pathname === "/packages" && (
-        <div className="w-[100vw] hidden lg:flex z-10 flex-col items-center justify-center">
+        <div className="w-[100vw] my-[16px] hidden lg:flex z-10 flex-col items-center justify-center">
           <Packages />
         </div>
       )}
 
       <div className="z-10">
         <FadeInAnimatedDiv type="text" showType="showtext">
-          <p className="text-white leading-tight headingFont lg:w-[70vw] w-[95vw] text-[9vw] lg:text-center text-left md:text-[5vw]">
+          <p className="text-white leading-tight headingFont md:w-[70vw] w-[95vw] text-[9vw] md:text-center text-left md:text-[5vw] lg:text-headingLarge ">
             {text}.
           </p>
         </FadeInAnimatedDiv>
@@ -35,7 +35,7 @@ function HeroSection({ text }) {
 
       <div className="absolute w-[100%] h-[100%] z-5 bg-black opacity-40"></div>
       {location.pathname === "/" && (
-        <div className="items-center justify-between z-5 w-[100vw] px-[16px] absolute bottom-8 hidden lg:flex">
+        <div className="items-center justify-between z-5 w-[100%] px-[16px] absolute bottom-8 hidden lg:flex">
           <div className="flex items-center">
             <p className="text-white bg-custom-green px-[24px] py-[8px] rounded-[20px]">
               Free Trial

@@ -13,7 +13,7 @@ function Navbar() {
         <Hamburger />
       </div>
 
-      <div className="bg-custom-black fixed z-20 md:w-[100vw] max-w-[1500px] lg:w-[100vw] md:flex justify-between items-center p-[16px] hidden">
+      <div className="bg-custom-black fixed z-20 md:w-[100vw] max-w-[1500px] md:flex justify-between items-center p-[16px] hidden">
         <Link to="/">
           <p className="text-white">Logo</p>
         </Link>

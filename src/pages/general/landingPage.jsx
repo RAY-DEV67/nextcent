@@ -58,7 +58,7 @@ function LandingPage() {
       <div className="relative z-10 h-[300px] mt-[24px] flex flex-col items-center justify-center inAppImage">
         <div className="z-10">
           <FadeInAnimatedDiv type="text" showType="showtext">
-            <p className="text-custom-white headingFont w-[70vw] text-[7vw] md:text-[4vw]">
+            <p className="text-custom-white headingFont w-[70vw] text-[7vw] md:text-[4vw] lg:text-headingLarge">
               In App Ordering
             </p>
           </FadeInAnimatedDiv>

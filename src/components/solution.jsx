@@ -12,7 +12,7 @@ function Solution() {
       </p> */}
       <div className="flex flex-col items-center lg:w-[50%]">
         <FadeInAnimatedDiv type="fade" showType="showFade">
-          <p className="text-headingSmall lg:text-[3vw] headingFont">
+          <p className="text-headingSmall lg:text-headingLarge md:text-[5vw] headingFont">
             Our Solution
           </p>
           <p className="text-[16px] my-[16px]">
@@ -22,7 +22,7 @@ function Solution() {
         </FadeInAnimatedDiv>
       </div>
 
-      <div className="flex flex-col lg:w-[80%] justify-between items-center lg:flex-row flex-wrap">
+      <div className="flex flex-col md:w-[90%] lg:w-[1000px] justify-between items-center md:flex-row flex-wrap">
         <SolutionsCard
           heading="In- App Ordering"
           text="Let your customers order directly from your menu page."
@@ -49,19 +49,19 @@ function Solution() {
         />
       </div>
 
-      <div className="mt-[40px] lg:flex justify-center items-center lg:w-[90vw]">
-        <div className="lg:w-[50%] flex flex-col items-center lg:items-start">
+      <div className="mt-[40px] md:flex justify-center items-center md:w-[90%]">
+        <div className="md:w-[50%] flex flex-col items-center md:items-start">
           <FadeInAnimatedDiv type="fade" showType="showFade">
-            <p className="text-headingSmall leading-tight lg:text-[2.5vw] text-left lg:w-[90%] headingFont">
+            <p className="text-headingSmall leading-tight lg:text-headingLarge2 md:text-[4vw] text-left lg:w-[90%] headingFont">
               Customize your menu boards to power your restaurant.
             </p>
-            <p className="text-[16px] my-[16px] text-left lg:w-[70%]">
+            <p className="text-[16px] my-[16px] text-left md:w-[90%] lg:w-[70%]">
               ServEase's customizable menu boards are designed to enhance the
               dining experience and streamline restaurant operations.
             </p>
           </FadeInAnimatedDiv>
         </div>
-        <div className="lg:border-l-[1px] flex flex-col items-center lg:items-end lg:w-[50%]">
+        <div className="lg:border-l-[1px] flex flex-col items-center md:items-end md:w-[50%]">
           <img
             src={solution1}
             alt="Customize your menu board"
@@ -70,13 +70,13 @@ function Solution() {
         </div>
       </div>
 
-      <div className="mt-[40px] flex flex-col lg:flex-row-reverse justify-center items-center lg:w-[90vw]">
-        <div className="lg:w-[50%] flex flex-col items-center">
+      <div className="mt-[40px] flex flex-col md:flex-row-reverse justify-center items-center md:w-[90%]">
+        <div className="md:w-[50%] flex flex-col items-center">
           <FadeInAnimatedDiv type="fade" showType="showFade">
-            <p className="text-headingSmall leading-tight headingFont lg:text-[2.5vw] text-left lg:text-right lg:w-[90%]">
+            <p className="text-headingSmall leading-tight headingFont lg:text-headingLarge2 md:text-[4vw] text-left md:text-right md:w-[90%]">
               Take charge of your sales and make the most of your insights
             </p>
-            <p className="text-[16px] my-[16px] text-left lg:text-right lg:w-[90%]">
+            <p className="text-[16px] my-[16px] text-left md:text-right md:w-[90%]">
               ServEase is committed to empowering restaurants with the insight
               you need to make a data driven decision
             </p>
@@ -124,7 +124,7 @@ function Solution() {
             </div>
           </div> */}
         </div>
-        <div className="lg:border-r-[1px] flex flex-col items-center lg:w-[50%]">
+        <div className="lg:border-r-[1px] flex flex-col items-center md:w-[50%]">
           <img
             src={solution2}
             alt="Built in analytic tools"
@@ -133,13 +133,13 @@ function Solution() {
         </div>
       </div>
 
-      <div className="mt-[40px] lg:flex justify-center items-center lg:w-[90vw]">
-        <div className="lg:w-[50%] flex flex-col items-center lg:items-start">
+      <div className="mt-[40px] md:flex justify-center items-center md:w-[90%]">
+        <div className="md:w-[50%] flex flex-col items-center md:items-start">
           <FadeInAnimatedDiv type="fade" showType="showFade">
-            <p className="text-headingSmall leading-tight headingFont lg:text-[2.5vw] text-left lg:w-[90%]">
+            <p className="text-headingSmall leading-tight headingFont lg:text-headingLarge2 md:text-[4vw] text-left md:w-[90%]">
               Experience Swift And Secure Transaction With Ease
             </p>
-            <p className="text-[16px] my-[16px] text-left lg:w-[70%]">
+            <p className="text-[16px] my-[16px] text-left md:w-[90%] lg:w-[70%]">
               ServEase's is dedicated to providing a seamless and secure payment
               experience for both restaurants and customers. Our platform
               integrates advanced security measures and cutting-edge technology
@@ -147,7 +147,7 @@ function Solution() {
             </p>
           </FadeInAnimatedDiv>
         </div>
-        <div className="lg:border-l-[1px] flex flex-col items-center lg:items-end lg:w-[50%]">
+        <div className="lg:border-l-[1px] flex flex-col items-center md:items-end md:w-[50%]">
           <img
             src={solution3}
             alt="Built in secure payment option"

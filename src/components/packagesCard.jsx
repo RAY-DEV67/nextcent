@@ -46,21 +46,21 @@ function PackagesCard({
         <div
           className={`${
             packageName === "Premium"
-              ? "bg-custom-white shadow-custom-green lg:h-[450px] lg:w-[350px]"
-              : "bg-custom-gray2 shadow-white lg:h-[400px] lg:w-[330px]"
-          } flex flex-col items-start shadow mt-[16px] w-[80vw] h-[450px] p-[16px] rounded-[10px]`}
+              ? "bg-custom-white shadow-custom-green"
+              : "bg-custom-gray2 shadow-white"
+          } flex flex-col items-start shadow mt-[16px] w-[80vw] h-[450px] md:h-[400px] md:w-[330px] p-[16px] rounded-[10px]`}
         ></div>
 
         <div
           className={`${
             packageName === "Premium"
-              ? "bg-custom-white shadow-custom-green lg:h-[450px] lg:w-[350px]"
-              : "bg-custom-gray2 shadow-white lg:h-[400px] lg:w-[330px]"
-          } flex flex-col items-start justify-center shadow mt-[16px] w-[80vw] h-[450px] p-[16px] rounded-[10px]`}
+              ? "bg-custom-white shadow-custom-green"
+              : "bg-custom-gray2 shadow-white"
+          } flex flex-col items-start justify-center md:h-[400px] md:w-[330px] shadow mt-[16px] w-[80vw] h-[450px] p-[16px] rounded-[10px]`}
         >
           <div className="flex justify-between items-center w-[100%]">
             <p
-              className={`text-headingSmall headingFont lg:text-[2vw] ${
+              className={`text-headingSmall headingFont md:text-[3vw] lg:text-headingLarge2 ${
                 packageName === "Premium" ? "text-black" : "text-white"
               }`}
             >
@@ -80,7 +80,7 @@ function PackagesCard({
             {description}
           </p>
           <p
-            className={`text-headingSmall font-semibold lg:text-[2vw]  ${
+            className={`text-headingSmall font-semibold md:text-[4vw] lg:text-headingLarge2 ${
               packageName === "Premium" ? "text-black" : "text-white"
             }`}
           >
