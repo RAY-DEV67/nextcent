@@ -14,7 +14,7 @@ export default {
       },
       fontSize: {
         // Define your custom text sizes here
-        headingSmall: "7vw",
+        headingSmall: "8vw",
         headingLarge: "4vw",
       },
     },
