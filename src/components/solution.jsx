@@ -52,7 +52,7 @@ function Solution() {
       <div className="mt-[40px] lg:flex justify-center items-center lg:w-[90vw]">
         <div className="lg:w-[50%] flex flex-col items-center lg:items-start">
           <FadeInAnimatedDiv type="fade" showType="showFade">
-            <p className="text-headingSmall lg:text-[2.5vw] text-left lg:w-[90%] headingFont">
+            <p className="text-headingSmall leading-tight lg:text-[2.5vw] text-left lg:w-[90%] headingFont">
               Customize your menu boards to power your restaurant.
             </p>
             <p className="text-[16px] my-[16px] text-left lg:w-[70%]">
@@ -73,7 +73,7 @@ function Solution() {
       <div className="mt-[40px] flex flex-col lg:flex-row-reverse justify-center items-center lg:w-[90vw]">
         <div className="lg:w-[50%] flex flex-col items-center">
           <FadeInAnimatedDiv type="fade" showType="showFade">
-            <p className="text-headingSmall headingFont lg:text-[2.5vw] text-left lg:text-right lg:w-[90%]">
+            <p className="text-headingSmall leading-tight headingFont lg:text-[2.5vw] text-left lg:text-right lg:w-[90%]">
               Take charge of your sales and make the most of your insights
             </p>
             <p className="text-[14px] my-[16px] text-left lg:text-right lg:w-[90%]">
@@ -136,7 +136,7 @@ function Solution() {
       <div className="mt-[40px] lg:flex justify-center items-center lg:w-[90vw]">
         <div className="lg:w-[50%] flex flex-col items-center lg:items-start">
           <FadeInAnimatedDiv type="fade" showType="showFade">
-            <p className="text-headingSmall headingFont lg:text-[2.5vw] text-left lg:w-[90%]">
+            <p className="text-headingSmall leading-tight headingFont lg:text-[2.5vw] text-left lg:w-[90%]">
               Experience Swift And Secure Transaction With Ease
             </p>
             <p className="text-[16px] my-[16px] text-left lg:w-[70%]">

@@ -27,7 +27,7 @@ function HeroSection({ text }) {
 
       <div className="z-10">
         <SlidUpAnimatedDiv type="text" showType="showtext">
-          <p className="text-white headingFont lg:w-[70vw] w-[95vw] text-[9vw] lg:text-center text-left md:text-[5vw]">
+          <p className="text-white leading-tight headingFont lg:w-[70vw] w-[95vw] text-[9vw] lg:text-center text-left md:text-[5vw]">
             {text}.
           </p>
         </SlidUpAnimatedDiv>
