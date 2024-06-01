@@ -7,14 +7,16 @@ function Navbar() {
   return (
     <div className="flex flex-col items-center">
       <div className="bg-custom-black fixed z-20 w-[100vw] flex justify-between p-[16px] md:hidden">
-        <p className="text-white">Logo</p>
+        <Link to="/">
+          <p className="text-white">Logo</p>
+        </Link>
         <Hamburger />
       </div>
 
       <div className="bg-custom-black fixed z-20 md:w-[100vw] max-w-[1500px] lg:w-[100vw] md:flex justify-between items-center p-[16px] hidden">
-        <div>
+        <Link to="/">
           <p className="text-white">Logo</p>
-        </div>
+        </Link>
 
         <div className="flex w-[300px] justify-between items-center">
           <Link to="/">

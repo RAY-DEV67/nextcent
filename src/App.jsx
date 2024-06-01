@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <Router>
-        {/* <ScrollToTop> */}
+        <ScrollToTop>
         <Navbar />
         <Routes>
           <Route path="/" element={<LandingPage />} />
@@ -24,7 +24,7 @@ function App() {
             <Route path="/dashboard" element={<Dashboard />} />
           </Route>
         </Routes>
-        {/* </ScrollToTop> */}
+        </ScrollToTop>
       </Router>
     </>
   );

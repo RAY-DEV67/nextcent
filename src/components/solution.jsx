@@ -76,7 +76,7 @@ function Solution() {
             <p className="text-headingSmall leading-tight headingFont lg:text-[2.5vw] text-left lg:text-right lg:w-[90%]">
               Take charge of your sales and make the most of your insights
             </p>
-            <p className="text-[14px] my-[16px] text-left lg:text-right lg:w-[90%]">
+            <p className="text-[16px] my-[16px] text-left lg:text-right lg:w-[90%]">
               ServEase is committed to empowering restaurants with the insight
               you need to make a data driven decision
             </p>
