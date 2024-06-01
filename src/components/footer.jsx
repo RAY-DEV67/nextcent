@@ -6,9 +6,9 @@ import Twitter from "../assets/icons/twitter";
 function Footer() {
   return (
     <div className="text-white mt-[24px] px-[16px] border-t-[0.5px]">
-      <div className="flex justify-center gap-x-10">
+      <div className="flex flex-col lg:flex-row justify-center gap-x-10">
         <div className="flex flex-col justify-start items-start mt-[16px]">
-          <p className="lg:text-[1.5vw]">ServEase</p>
+          <p className="lg:text-[1.5vw] headingFont">ServEase</p>
           <Link to="/about">
             <p className="mt-[8px] text-[12px]">About Us</p>
           </Link>
@@ -20,7 +20,7 @@ function Footer() {
         </div>
 
         <div className="flex flex-col justify-start items-start mt-[16px]">
-          <p className="lg:text-[1.5vw]">Solutions</p>
+          <p className="lg:text-[1.5vw] headingFont">Solutions</p>
           <p className="mt-[8px] text-[12px]">In-App Ordering</p>
           <p className="mt-[8px] text-[12px]">Analytic Dashboard</p>
           <p className="mt-[8px] text-[12px]">Custom Branding</p>
@@ -29,7 +29,7 @@ function Footer() {
         </div>
 
         <div className="flex flex-col justify-start items-start mt-[16px]">
-          <p className="lg:text-[1.5vw]">Support</p>
+          <p className="lg:text-[1.5vw] headingFont">Support</p>
           <p className="mt-[8px] text-[12px]">Help center</p>
           <p className="mt-[8px] text-[12px]">FAQ</p>
           <p className="mt-[8px] text-[12px]">Privacy Policy</p>
