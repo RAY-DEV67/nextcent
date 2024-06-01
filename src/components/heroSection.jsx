@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import Packages from "./packages";
-import SlidUpAnimatedDiv from "./slideUpAnimation";
+import FadeInAnimatedDiv from "./fadeInAnimation";
 
 function HeroSection({ text }) {
   const location = useLocation();
@@ -26,11 +26,11 @@ function HeroSection({ text }) {
       )}
 
       <div className="z-10">
-        <SlidUpAnimatedDiv type="text" showType="showtext">
+        <FadeInAnimatedDiv type="text" showType="showtext">
           <p className="text-white leading-tight headingFont lg:w-[70vw] w-[95vw] text-[9vw] lg:text-center text-left md:text-[5vw]">
             {text}.
           </p>
-        </SlidUpAnimatedDiv>
+        </FadeInAnimatedDiv>
       </div>
 
       <div className="absolute w-[100%] h-[100%] z-5 bg-black opacity-40"></div>

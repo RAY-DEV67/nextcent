@@ -14,7 +14,7 @@ function Packages({
       : null;
 
   return (
-    <div className="flex flex-col w-[65%] lg:flex-row items-center justify-between">
+    <div className="flex flex-col w-[65%] lg:w-[80%] lg:flex-row items-center justify-between">
       <PackagesCard
         packageName="Standard"
         description="Best for small scale restaurants"

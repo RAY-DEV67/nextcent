@@ -1,7 +1,6 @@
 import HeroSection from "../../components/heroSection";
 import aboutUsImage from "../../assets/images/aboutUsImage.jpg";
 import Footer from "../../components/footer";
-import SlidUpAnimatedDiv from "../../components/slideUpAnimation";
 import FadeInAnimatedDiv from "../../components/fadeInAnimation";
 
 function About() {
@@ -70,11 +69,11 @@ function About() {
 
       <div className="relative z-2 h-[300px] mt-[24px] flex flex-col items-center justify-center aboutLastImage">
         <div className="z-10 flex flex-col w-[80vw] lg:w-[60%] items-center">
-          <SlidUpAnimatedDiv type="text" showType="showtext">
+          <FadeInAnimatedDiv type="text" showType="showtext">
             <p className="text-white headingFont z-10 mt-[16px] text-[6vw] lg:text-[3vw]">
               Take your restaurant service to the next level
             </p>
-          </SlidUpAnimatedDiv>
+          </FadeInAnimatedDiv>
         </div>
 
         <p className="text-white z-[10] mt-[24px] bg-custom-green px-[24px] py-[8px] rounded-[20px]">

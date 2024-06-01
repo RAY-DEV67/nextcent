@@ -3,7 +3,7 @@ import HeroSection from "../../components/heroSection";
 import Packages from "../../components/packages";
 import Solution from "../../components/solution";
 import Footer from "../../components/footer";
-import SlidUpAnimatedDiv from "../../components/slideUpAnimation";
+import FadeInAnimatedDiv from "../../components/fadeInAnimation";
 
 function LandingPage() {
   const [packageFrequency, setpackageFrequency] = useState("Monthly");
@@ -57,11 +57,11 @@ function LandingPage() {
 
       <div className="relative z-10 h-[300px] mt-[24px] flex flex-col items-center justify-center inAppImage">
         <div className="z-10">
-          <SlidUpAnimatedDiv type="text" showType="showtext">
+          <FadeInAnimatedDiv type="text" showType="showtext">
             <p className="text-custom-white headingFont w-[70vw] text-[7vw] md:text-[4vw]">
               In App Ordering
             </p>
-          </SlidUpAnimatedDiv>
+          </FadeInAnimatedDiv>
         </div>
 
         <p className="text-white z-10 w-[80vw] mt-[16px]">
