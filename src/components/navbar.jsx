@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import Hamburger from "../assets/icons/hamburger";
 import { useState } from "react";
-import Close from "../assets/icons/cloase";
+import Close from "../assets/icons/close";
 
 function Navbar() {
   const location = useLocation();
@@ -85,7 +85,7 @@ function Navbar() {
       <div
         className={
           showMobile
-            ? `bg-custom-black z-20 nav landing2 h-[100vh] top-0 w-[100vw] flex flex-col items-center justify-center ml-[-1rem] fixed show`
+            ? `bg-custom-black z-20 nav landing2 h-[100vh] top-0 w-[100vw] flex flex-col items-center justify-center fixed show`
             : "bg-[#000009] h-[100vh] nav no top-0 w-[100vw] flex flex-col items-center justify-center fixed"
         }
       >
