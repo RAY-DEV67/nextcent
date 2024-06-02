@@ -29,7 +29,7 @@ function ComparisonTable() {
       false,
       false,
       false,
-      "N50,000",
+      "N50,000/m",
     ],
     premium: [
       true,
@@ -43,7 +43,7 @@ function ComparisonTable() {
       false,
       false,
       false,
-      "N100,000",
+      "N100,000/m",
     ],
     enterprise: [
       true,
@@ -57,7 +57,7 @@ function ComparisonTable() {
       true,
       true,
       true,
-      "N150,000",
+      "N150,000/m",
     ],
   };
 
