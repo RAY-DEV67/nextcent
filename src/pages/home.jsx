@@ -30,12 +30,12 @@ function LandingPage() {
     <div className="">
       <div className="relative bg-custom-silver z-2 h-[600px] py-[16px] flex flex-col lg:flex-row-reverse items-center justify-end md:justify-center md:h-[100vh]">
         <img src={hero} alt="Hero" className="lg:w-[300px]" />
-        <div className="flex flex-col items-center lg:items-start md:w-[70vw] w-[95vw]">
-          <p className="text-black text-[9vw] lg:w-[700px] lg:text-left leading-[60px] lg:leading-[72px] text-center md:text-[5vw] lg:text-headingLarge ">
+        <div className="flex flex-col items-start md:w-[70vw] w-[92vw]">
+          <p className="text-black text-[9vw] lg:w-[700px] leading-[10vw] lg:leading-[72px] text-left md:text-[5vw] lg:text-headingLarge ">
             Lessons and insights{" "}
             <span className="text-custom-primary">from 8 years</span>
           </p>
-          <p className="mt-[16px]">
+          <p className="mt-[16px] text-left">
             Where to grow your business as a photographer: site or social media?
           </p>
           <div className="text-white mt-[16px] flex flex-col items-center bg-custom-primary w-[100px] py-[12px] rounded-[5px]">
@@ -111,7 +111,7 @@ function LandingPage() {
       </div>
 
       <div className="mt-[64px] flex flex-col items-center">
-        <p className="text-[6vw] font-semibold lg:text-[30px] leading-[40px] md:leading-[50px] w-[90vw] lg:w-[45vw] md:w-[60vw]">
+        <p className="text-[6vw] font-semibold lg:text-[30px] leading-[10vw] md:leading-[50px] w-[90vw] lg:w-[45vw] md:w-[60vw]">
           Manage your entire community in a single system
         </p>
         <p className="text-custom-gray mt-[16px]">
@@ -141,7 +141,7 @@ function LandingPage() {
         <div className="lg:w-[80%] flex flex-col lg:flex-row items-center justify-end md:justify-between">
           <img src={hero2} alt="Hero" className="lg:w-[300px]" />
           <div className="flex flex-col lg:ml-[72px] items-center lg:items-start md:w-[60%] w-[95vw] mt-[16px] lg:mt-[0px]">
-            <p className="text-black text-[6vw] lg:w-[500px] lg:text-left leading-[40px] lg:leading-[50px] text-center md:text-[5vw] lg:text-[30px] font-semibold ">
+            <p className="text-black text-[6vw] lg:w-[500px] lg:text-left leading-[10vw] lg:leading-[50px] text-center md:text-[5vw] lg:text-[30px] font-semibold ">
               The unseen of spending three years at Pixelgrade
             </p>
             <p className="my-[16px] lg:text-left w-[90%] lg:w-[100%]">
@@ -162,7 +162,7 @@ function LandingPage() {
       <div className="bg-custom-silver mt-[24px] z-2 py-[16px] flex flex-col lg:flex-row items-center justify-center md:justify-center">
         <div className="lg:w-[80%] flex flex-col lg:flex-row items-center justify-end md:justify-between">
           <div className="flex flex-col items-center lg:items-start md:w-[40%] w-[95vw]">
-            <p className="text-black w-[90%] text-[6vw] lg:w-[350px] lg:text-left leading-[40px] lg:leading-[40px] text-center md:text-[5vw] lg:text-[30px] font-semibold">
+            <p className="text-black w-[90%] text-[6vw] lg:w-[350px] lg:text-left leading-[10vw] lg:leading-[40px] text-center md:text-[5vw] lg:text-[30px] font-semibold">
               Helping a local
               <span className="text-custom-primary">
                 {" "}
@@ -202,7 +202,7 @@ function LandingPage() {
         <div className="lg:w-[80%] flex flex-col lg:flex-row items-center justify-end md:justify-between">
           <img src={hero3} alt="Hero" className="lg:w-[300px]" />
           <div className="flex flex-col lg:ml-[72px] items-center lg:items-start md:w-[60%] w-[95vw] mt-[16px] lg:mt-[0px]">
-            <p className="text-black text-[6vw] lg:w-[500px] lg:text-left leading-[40px] lg:leading-[50px] text-center md:text-[5vw] lg:text-[30px] font-semibold ">
+            <p className="text-black text-[6vw] lg:w-[500px] lg:text-left leading-[10vw] lg:leading-[50px] text-center md:text-[5vw] lg:text-[30px] font-semibold ">
               How to design your site footer like we did
             </p>
             <p className="my-[16px] lg:text-left w-[90%] lg:w-[100%]">
@@ -232,7 +232,7 @@ function LandingPage() {
               Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec
               elementum pulvinar odio.{" "}
             </p>
-            <p className="my-[8px] text-left w-[90%] lg:w-[100%] text-custom-primary font-semibold">
+            <p className="mt-[8px] text-left w-[90%] lg:w-[100%] text-custom-primary font-semibold">
               Tim Smith
             </p>
             <p className="text-left w-[90%] lg:w-[100%] text-custom-gray">
@@ -242,8 +242,8 @@ function LandingPage() {
         </div>
       </div>
 
-      <div className="mt-[64px] flex flex-col items-center">
-        <p className="text-[6vw] font-semibold lg:text-[30px] leading-[40px] md:leading-[50px] w-[90vw] lg:w-[45vw] md:w-[60vw]">
+      <div className="mt-[24px] flex flex-col items-center">
+        <p className="text-[6vw] font-semibold lg:text-[30px] leading-[10vw] md:leading-[50px] w-[90vw] lg:w-[45vw] md:w-[60vw]">
           Caring is the new marketing
         </p>
         <p className="text-custom-gray mt-[16px] mx-[16px] lg:w-[50%]">
@@ -270,7 +270,7 @@ function LandingPage() {
       </div>
 
       <div className="mt-[100px] bg-custom-silver py-[24px] flex flex-col items-center">
-        <p className="text-[6vw] font-semibold lg:text-[30px] leading-[40px] md:leading-[50px] w-[90vw] lg:w-[45vw] md:w-[60vw]">
+        <p className="text-[6vw] font-semibold lg:text-[30px] leading-[10vw] md:leading-[50px] w-[90vw] lg:w-[45vw] md:w-[60vw]">
           Pellentesque suscipit fringilla libero eu.
         </p>
         <div className="text-white mt-[32px] flex items-center bg-custom-primary px-[32px] py-[12px] rounded-[5px]">

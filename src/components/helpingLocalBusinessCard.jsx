@@ -7,7 +7,7 @@ function HelpingLocalBusinessCard({ number, text, icon }) {
 
       <div className="flex flex-col items-start">
         <p className="font-bold text-[20px]">{number}</p>
-        <p className="mt-[4px] text-[14px] text-custom-gray">{text}</p>
+        <p className="text-[14px] text-custom-gray">{text}</p>
       </div>
     </div>
   );
