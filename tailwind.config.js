@@ -5,11 +5,10 @@ export default {
     extend: {
       colors: {
         custom: {
-          gray1: "#252625",
-          gray2: "#3e3e3e",
-          black: "#000000",
-          white: "#ffffff",
-          green: "#16A34A",
+          primary: "#4caf4f",
+          silver: "#F5F7FA",
+          gray: "#717171",
+          dark: "#263238",
         },
       },
       fontSize: {

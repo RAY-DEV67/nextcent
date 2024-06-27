@@ -6,25 +6,7 @@ function HeroSection({ text }) {
   const location = useLocation();
 
   return (
-    <div
-      className={`relative z-2 h-[400px] flex flex-col items-center justify-end md:justify-center md:h-[100vh] ${
-        location.pathname === "/"
-          ? "heroImage"
-          : location.pathname === "/about"
-          ? "aboutImage"
-          : location.pathname === "/packages"
-          ? "packagesImage"
-          : location.pathname === "/contact"
-          ? "contactImage"
-          : null
-      }`}
-    >
-      {location.pathname === "/packages" && (
-        <div className="w-[100vw] my-[16px] hidden lg:flex z-10 flex-col items-center justify-center">
-          <Packages />
-        </div>
-      )}
-
+    <div className="relative z-2 h-[400px] flex flex-col items-center justify-end md:justify-center md:h-[100vh]">
       <div className="z-10">
         <FadeInAnimatedDiv type="text" showType="showtext">
           <p className="text-white leading-tight headingFont md:w-[70vw] w-[95vw] text-[9vw] md:text-center text-left md:text-[5vw] lg:text-headingLarge ">

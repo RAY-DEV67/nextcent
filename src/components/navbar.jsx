@@ -2,6 +2,8 @@ import { Link, useLocation } from "react-router-dom";
 import Hamburger from "../assets/icons/hamburger";
 import { useState } from "react";
 import Close from "../assets/icons/close";
+import RightArrow from "../assets/icons/rightArrow";
+import logo from "../assets/images/nexLogo.png";
 
 function Navbar() {
   const location = useLocation();
@@ -13,10 +15,8 @@ function Navbar() {
 
   return (
     <div className="flex flex-col items-center">
-      <div className="bg-custom-black fixed z-20 w-[100vw] flex justify-between p-[16px] md:hidden">
-        <Link to="/">
-          <p className="text-white">Logo</p>
-        </Link>
+      <div className="bg-white shadow-md fixed z-20 w-[100vw] flex justify-between p-[16px] md:hidden">
+        <img src={logo} />
         <div
           onClick={() => {
             setshowMobile(true);
@@ -27,65 +27,41 @@ function Navbar() {
         </div>
       </div>
 
-      <div className="bg-custom-black fixed z-20 md:w-[100vw] max-w-[1500px] md:flex justify-between items-center p-[16px] hidden">
-        <Link to="/">
-          <p className="text-white">Logo</p>
-        </Link>
+      <div className="bg-white shadow-md fixed z-20 md:w-[100vw] max-w-[1500px] md:flex justify-between items-center py-[16px] px-[64px] hidden">
+        <img src={logo} />
 
-        <div className="flex w-[300px] justify-between items-center">
-          <Link to="/">
-            <p
-              className={`text-white border-custom-white ${
-                location.pathname === "/" && "border-b-2"
-              }`}
-            >
-              Home
-            </p>
-          </Link>
+        <div className="flex w-[600px] justify-between items-center">
+          <div>
+            <p>Home</p>
+          </div>
 
-          <Link to="/about">
-            <p
-              className={`text-white border-custom-white ${
-                location.pathname === "/about" && "border-b-2"
-              }`}
-            >
-              About
-            </p>
-          </Link>
+          <div>
+            <p>Features</p>
+          </div>
 
-          <Link to="/packages">
-            <p
-              className={`text-white border-custom-white ${
-                location.pathname === "/packages" && "border-b-2"
-              }`}
-            >
-              Packages
-            </p>
-          </Link>
+          <div>
+            <p>Community</p>
+          </div>
 
-          <Link to="/contact">
-            <p
-              className={`text-white border-custom-white ${
-                location.pathname === "/contact" && "border-b-2"
-              }`}
-            >
-              Contact
-            </p>
-          </Link>
-        </div>
+          <div>
+            <p>Blog</p>
+          </div>
 
-        <div className="flex w-[150px] justify-between items-center">
-          <p className="text-white">Login</p>
-          <p className="text-white bg-custom-green px-[16px] py-[4px] rounded-[20px]">
-            Sign Up
-          </p>
+          <div>
+            <p>Pricing</p>
+          </div>
+
+          <div className="text-white flex items-center bg-custom-primary px-[32px] py-[12px] rounded-[5px]">
+            <p className="mr-[8px]">Register Now</p>
+            <RightArrow />
+          </div>
         </div>
       </div>
 
       <div
         className={
           showMobile
-            ? `bg-custom-black z-20 nav landing2 h-[100vh] top-0 w-[100vw] flex flex-col items-center justify-center fixed show`
+            ? `bg-black z-20 nav landing2 h-[100vh] top-0 w-[100vw] flex flex-col items-center justify-center fixed show`
             : "bg-[#000009] h-[100vh] nav no top-0 w-[100vw] flex flex-col items-center justify-center fixed"
         }
       >
@@ -97,32 +73,35 @@ function Navbar() {
         >
           <Close />
         </div>
-        <Link to="/" className="nav" onClick={removeNavOverlay}>
+        <div className="nav" onClick={removeNavOverlay}>
           <p className="text-[4vw] md:text-[2vw] text-white mb-[1rem] headingfont font-bold">
             Home
           </p>
-        </Link>
+        </div>
 
-        <Link className="nav" to="/about" onClick={removeNavOverlay}>
+        <div className="nav" onClick={removeNavOverlay}>
           <p className="text-[4vw] md:text-[2vw] text-white mb-[1rem] headingfont font-bold">
-            About
+            Features
           </p>
-        </Link>
-        <Link className="nav" to="/packages" onClick={removeNavOverlay}>
+        </div>
+        <div className="nav" onClick={removeNavOverlay}>
           <p className="text-[4vw] md:text-[2vw] text-white mb-[1rem] headingfont font-bold">
-            Packages
+            Community
           </p>
-        </Link>
-        <Link className="nav" to="/contact" onClick={removeNavOverlay}>
+        </div>
+        <div className="nav" onClick={removeNavOverlay}>
           <p className="text-[4vw] md:text-[2vw] text-white mb-[1rem] headingfont font-bold">
-            Contact
+            Blog
           </p>
-        </Link>
-        <div className="flex w-[150px] mt-[24px] justify-between items-center">
-          <p className="text-white">Login</p>
-          <p className="text-white bg-custom-green px-[16px] py-[4px] rounded-[20px]">
-            Sign Up
+        </div>
+        <div className="nav" onClick={removeNavOverlay}>
+          <p className="text-[4vw] md:text-[2vw] text-white mb-[1rem] headingfont font-bold">
+            Pricing
           </p>
+        </div>
+        <div className="text-white mt-[32px] flex items-center bg-custom-primary px-[32px] py-[12px] rounded-[5px]">
+          <p className="mr-[8px]">Register Now</p>
+          <RightArrow />
         </div>
       </div>
     </div>
