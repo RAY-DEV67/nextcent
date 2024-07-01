@@ -178,27 +178,31 @@ function LandingPage() {
               We reached here with our hard work and dedication
             </p>
           </div>
-          <div className="flex flex-wrap items-center justify-center lg:w-[50%]">
-            <HelpingLocalBusinessCard
-              icon={helpIcon1}
-              number="2,245,341"
-              text="Members"
-            />
-            <HelpingLocalBusinessCard
-              icon={helpIcon2}
-              number="46,328"
-              text="Clubs"
-            />
-            <HelpingLocalBusinessCard
-              icon={helpIcon3}
-              number="828,868"
-              text="Event Bookings"
-            />
-            <HelpingLocalBusinessCard
-              icon={helpIcon4}
-              number="1,926,436"
-              text="Members"
-            />
+          <div className="lg:w-[50%]">
+            <div className="flex justify-between">
+              <HelpingLocalBusinessCard
+                icon={helpIcon1}
+                number="2,245,341"
+                text="Members"
+              />
+              <HelpingLocalBusinessCard
+                icon={helpIcon2}
+                number="46,328"
+                text="Clubs"
+              />
+            </div>
+            <div className="flex">
+              <HelpingLocalBusinessCard
+                icon={helpIcon3}
+                number="828,868"
+                text="Event Bookings"
+              />
+              <HelpingLocalBusinessCard
+                icon={helpIcon4}
+                number="1,926,436"
+                text="Members"
+              />
+            </div>
           </div>
         </div>{" "}
       </div>

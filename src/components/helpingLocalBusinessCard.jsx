@@ -1,6 +1,6 @@
 function HelpingLocalBusinessCard({ number, text, icon }) {
   return (
-    <div className="flex flex-row justify-center items-center p-[16px] lg:w-[48%] mt-[16px]">
+    <div className="flex flex-row justify-start items-start  lg:w-[48%] w-[170px] m-[16px]">
       <div className="w-[50px]">
         <img src={icon} alt="Icon" />
       </div>
