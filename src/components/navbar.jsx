@@ -6,7 +6,6 @@ import RightArrow from "../assets/icons/rightArrow";
 import logo from "../assets/images/nexLogo.png";
 
 function Navbar() {
-  const location = useLocation();
   const [showMobile, setshowMobile] = useState(false);
 
   const removeNavOverlay = () => {
@@ -15,7 +14,7 @@ function Navbar() {
 
   return (
     <div className="flex flex-col items-center">
-      <div className="bg-white shadow-md fixed z-20 w-[100vw] flex justify-between p-[16px] md:hidden">
+      <div className="bg-white shadow-md fixed z-20 w-[100vw] flex justify-between p-[16px] lg:hidden">
         <img src={logo} />
         <div
           onClick={() => {
@@ -27,35 +26,29 @@ function Navbar() {
         </div>
       </div>
 
-      <div className="bg-white shadow-md fixed z-20 md:w-[100vw] max-w-[1500px] md:flex justify-between items-center py-[16px] px-[64px] hidden">
-        <img src={logo} />
+      <div className="bg-white lg:w-[100vw] z-20 fixed shadow-sm max-w-[1500px] py-[24px] hidden justify-center items-center lg:flex">
+        <div className="lg:w-[85%] lg:flex  hidden justify-between items-center">
+          <img src={logo} />
 
-        <div className="flex w-[600px] justify-between items-center">
-          <div>
-            <p>Home</p>
-          </div>
+          <div className="flex w-[600px] justify-between items-center">
+            <a className="cursor-pointer hover:text-custom-primary">Home</a>
 
-          <div>
-            <p>Features</p>
-          </div>
+            <a className="cursor-pointer hover:text-custom-primary">Features</a>
 
-          <div>
-            <p>Community</p>
-          </div>
+            <a className="cursor-pointer hover:text-custom-primary">
+              Community
+            </a>
 
-          <div>
-            <p>Blog</p>
-          </div>
+            <a className="cursor-pointer hover:text-custom-primary">Blog</a>
 
-          <div>
-            <p>Pricing</p>
-          </div>
+            <a className="cursor-pointer hover:text-custom-primary">Pricing</a>
 
-          <div className="text-white flex items-center bg-custom-primary px-[32px] py-[12px] rounded-[5px]">
-            <p className="mr-[8px]">Register Now</p>
-            <RightArrow />
+            <div className="text-white flex cursor-pointer items-center bg-custom-primary px-[32px] py-[12px] rounded-[5px]">
+              <p className="mr-[8px]">Register Now</p>
+              <RightArrow />
+            </div>
           </div>
-        </div>
+        </div>{" "}
       </div>
 
       <div

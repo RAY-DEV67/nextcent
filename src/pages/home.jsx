@@ -28,28 +28,33 @@ import RightArrow from "../assets/icons/rightArrow";
 function LandingPage() {
   return (
     <div className="">
-      <div className="relative bg-custom-silver z-2 h-[600px] py-[16px] flex flex-col lg:flex-row-reverse items-center justify-end md:justify-center md:h-[100vh]">
-        <img src={hero} alt="Hero" className="lg:w-[300px]" />
-        <div className="flex flex-col items-start md:w-[70vw] w-[92vw]">
-          <p className="text-black text-[9vw] lg:w-[700px] leading-[10vw] lg:leading-[72px] text-left md:text-[5vw] lg:text-headingLarge ">
-            Lessons and insights{" "}
-            <span className="text-custom-primary">from 8 years</span>
-          </p>
-          <p className="mt-[16px] text-left">
-            Where to grow your business as a photographer: site or social media?
-          </p>
-          <div className="text-white mt-[16px] flex flex-col items-center bg-custom-primary w-[100px] py-[12px] rounded-[5px]">
-            <p>Register</p>
+      <div className="relative bg-custom-silver flex flex-col items-center">
+        <div className="lg:w-[85%] z-2 h-[600px] py-[16px] flex flex-col lg:flex-row-reverse items-center justify-end lg:justify-center lg:h-[100vh]">
+          <img src={hero} alt="Hero" className="lg:w-[300px]" />
+          <div className="flex flex-col items-start lg:w-[70vw] w-[92vw]">
+            <p className="text-black text-[9vw] lg:w-[700px] leading-[10vw] sm:leading-[8vw] md:leading-[50px] lg:leading-[72px] text-left sm:text-[6vw] md:text-[5vw] lg:text-headingLarge ">
+              Lessons and insights{" "}
+              <span className="text-custom-primary">from 8 years</span>
+            </p>
+            <p className="mt-[8px] text-left">
+              Where to grow your business as a photographer: site or social
+              media?
+            </p>
+            <div className="text-white mt-[16px] flex flex-col items-center bg-custom-primary w-[100px] py-[12px] rounded-[5px]">
+              <p>Register</p>
+            </div>
           </div>
         </div>
       </div>
 
       <div className="mt-[32px] flex flex-col items-center">
-        <p className="text-[6vw] font-semibold lg:text-[30px]">Our Clients</p>
+        <p className="text-[6vw] sm:text-[3.5vw] md:text-[4vw] font-semibold lg:text-[30px]">
+          Our Clients
+        </p>
         <p className="text-custom-gray">
           We have been with some fortune 500+ clients
         </p>
-        <div className="slider mt-[16px]">
+        <div className="slider mt-[16px] lg:w-[80%]">
           <div className="slide-track">
             {/* SLIDES///// */}
 
@@ -111,14 +116,14 @@ function LandingPage() {
       </div>
 
       <div className="mt-[64px] flex flex-col items-center">
-        <p className="text-[6vw] font-semibold lg:text-[30px] leading-[10vw] md:leading-[50px] w-[90vw] lg:w-[45vw] md:w-[60vw]">
+        <p className="text-[6vw] sm:text-[3.5vw] md:text-[4vw] font-semibold lg:text-[30px] leading-[10vw] md:leading-[50px] sm:leading-[30px] w-[90vw] lg:w-[45vw] sm:w-[60vw]">
           Manage your entire community in a single system
         </p>
         <p className="text-custom-gray mt-[16px]">
           Who is Nextcent suitable for?
         </p>
 
-        <div className="flex flex-col lg:flex-row lg:justify-between items-center lg:w-[80%] mt-[16px]">
+        <div className="flex flex-col lg:flex-row lg:justify-between items-center lg:w-[85%] mt-[16px]">
           <MembershipCommunityCard
             icon={manageIcon3}
             heading="Membership Organisations"
@@ -138,10 +143,10 @@ function LandingPage() {
       </div>
 
       <div className="flex flex-col items-center mt-[64px] ">
-        <div className="lg:w-[80%] flex flex-col lg:flex-row items-center justify-end md:justify-between">
+        <div className="lg:w-[85%] flex flex-col lg:flex-row items-center justify-end lg:justify-between">
           <img src={hero2} alt="Hero" className="lg:w-[300px]" />
           <div className="flex flex-col lg:ml-[72px] items-center lg:items-start md:w-[60%] w-[95vw] mt-[16px] lg:mt-[0px]">
-            <p className="text-black text-[6vw] lg:w-[500px] lg:text-left leading-[10vw] lg:leading-[50px] text-center md:text-[5vw] lg:text-[30px] font-semibold ">
+            <p className="text-black text-[6vw] sm:text-[3.5vw] md:text-[4vw] sm:w-[500px] lg:text-left leading-[10vw] md:leading-[50px] sm:leading-[30px] lg:leading-[50px] text-center lg:text-[30px] font-semibold ">
               The unseen of spending three years at Pixelgrade
             </p>
             <p className="my-[16px] lg:text-left w-[90%] lg:w-[100%]">
@@ -159,10 +164,10 @@ function LandingPage() {
         </div>
       </div>
 
-      <div className="bg-custom-silver mt-[24px] z-2 py-[16px] flex flex-col lg:flex-row items-center justify-center md:justify-center">
-        <div className="lg:w-[80%] flex flex-col lg:flex-row items-center justify-end md:justify-between">
+      <div className="bg-custom-silver mt-[24px] z-2 py-[16px] flex flex-col lg:flex-row items-center justify-center lg:justify-center">
+        <div className="lg:w-[85%] flex flex-col lg:flex-row items-center justify-end lg:justify-between">
           <div className="flex flex-col items-center lg:items-start md:w-[40%] w-[95vw]">
-            <p className="text-black w-[90%] text-[6vw] lg:w-[350px] lg:text-left leading-[10vw] lg:leading-[40px] text-center md:text-[5vw] lg:text-[30px] font-semibold">
+            <p className="text-black w-[90%] text-[6vw] sm:text-[3.5vw] md:text-[4vw] sm:w-[400px] lg:w-[350px] lg:text-left leading-[10vw] md:leading-[50px] sm:leading-[30px] lg:leading-[40px] text-center lg:text-[30px] font-semibold">
               Helping a local
               <span className="text-custom-primary">
                 {" "}
@@ -199,10 +204,10 @@ function LandingPage() {
       </div>
 
       <div className="flex flex-col items-center mt-[64px] ">
-        <div className="lg:w-[80%] flex flex-col lg:flex-row items-center justify-end md:justify-between">
+        <div className="lg:w-[85%] flex flex-col lg:flex-row items-center justify-end lg:justify-between">
           <img src={hero3} alt="Hero" className="lg:w-[300px]" />
           <div className="flex flex-col lg:ml-[72px] items-center lg:items-start md:w-[60%] w-[95vw] mt-[16px] lg:mt-[0px]">
-            <p className="text-black text-[6vw] lg:w-[500px] lg:text-left leading-[10vw] lg:leading-[50px] text-center md:text-[5vw] lg:text-[30px] font-semibold ">
+            <p className="text-black text-[6vw] sm:text-[3.5vw] md:text-[4vw] lg:w-[500px] lg:text-left leading-[10vw] md:leading-[50px] sm:leading-[30px] text-center lg:text-[30px] font-semibold ">
               How to design your site footer like we did
             </p>
             <p className="my-[16px] lg:text-left w-[90%] lg:w-[100%]">
@@ -221,7 +226,7 @@ function LandingPage() {
       </div>
 
       <div className="flex flex-col items-center mt-[64px] py-[16px] bg-custom-silver">
-        <div className="lg:w-[80%] flex flex-col lg:flex-row items-center justify-end md:justify-between">
+        <div className="lg:w-[85%] flex flex-col lg:flex-row items-center justify-end lg:justify-between">
           <img src={hero4} alt="Hero" className="lg:w-[300px]" />
           <div className="flex flex-col lg:ml-[72px] items-center lg:items-start md:w-[60%] w-[95vw] mt-[16px] lg:mt-[0px]">
             <p className="my-[16px] lg:text-left w-[90%] lg:w-[100%]">
@@ -242,8 +247,8 @@ function LandingPage() {
         </div>
       </div>
 
-      <div className="mt-[24px] flex flex-col items-center">
-        <p className="text-[6vw] font-semibold lg:text-[30px] leading-[10vw] md:leading-[50px] w-[90vw] lg:w-[45vw] md:w-[60vw]">
+      <div className="mt-[24px] flex flex-col justify-center w-[100%] items-center">
+        <p className="text-[6vw] sm:text-[3.5vw] md:text-[4vw] font-semibold lg:text-[30px] leading-[10vw] md:leading-[50px] sm:leading-[30px] w-[90vw] lg:w-[45vw] md:w-[60vw]">
           Caring is the new marketing
         </p>
         <p className="text-custom-gray mt-[16px] mx-[16px] lg:w-[50%]">
@@ -253,7 +258,7 @@ function LandingPage() {
           and lot's more.​
         </p>
 
-        <div className="flex flex-col lg:flex-row lg:justify-between items-center lg:w-[80%] mt-[-80px]">
+        <div className="flex flex-col gap-x-5 md:flex-row md:justify-center lg:justify-between items-center md:w-[85%] mt-[-80px]">
           <CaringCard
             icon={care1}
             heading="Creating streamlined safegaurding processes with OneRen"
@@ -270,7 +275,7 @@ function LandingPage() {
       </div>
 
       <div className="mt-[100px] bg-custom-silver py-[24px] flex flex-col items-center">
-        <p className="text-[6vw] font-semibold lg:text-[30px] leading-[10vw] md:leading-[50px] w-[90vw] lg:w-[45vw] md:w-[60vw]">
+        <p className="text-[6vw] sm:text-[3.5vw] md:text-[4vw] font-semibold lg:text-[30px] leading-[10vw] md:leading-[50px] sm:leading-[30px] w-[90vw] lg:w-[35vw] md:w-[60vw]">
           Pellentesque suscipit fringilla libero eu.
         </p>
         <div className="text-white mt-[32px] flex items-center bg-custom-primary px-[32px] py-[12px] rounded-[5px]">

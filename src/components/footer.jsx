@@ -5,11 +5,11 @@ import Twitter from "../assets/icons/twitter";
 
 function Footer() {
   return (
-    <div className="text-white p-[16px] bg-custom-dark">
+    <div className="text-white p-[16px] bg-custom-dark flex flex-col lg:items-center">
       <div className="lg:hidden pt-[16px]">
         <img src={logo} alt="logo" />
       </div>
-      <div className="flex flex-col-reverse md:flex-row justify-center gap-x-20 ">
+      <div className="flex flex-col-reverse justify-center lg:w-[85%] lg:flex-row lg:justify-between gap-x-20 ">
         <div className="mt-[16px] lg:mt-[8px] flex flex-row lg:flex-col lg:items-start lg:justify-start lg:gap-y-5 justify-between items-center py-[16px]">
           <div className="hidden lg:block">
             <img src={logo} alt="logo" />
@@ -25,25 +25,33 @@ function Footer() {
         </div>
 
         <div className="flex flex-col justify-start items-start mt-[16px]">
-          <p className="md:text-[1.5vw] font-bold">Company</p>
-          <p className="mt-[8px] text-[12px] text-custom-silver">About Us</p>
-          <p className="mt-[8px] text-[12px] text-custom-silver">Blog</p>
-          <p className="mt-[8px] text-[12px] text-custom-silver">Contact Us</p>
-          <p className="mt-[8px] text-[12px] text-custom-silver">Pricing</p>
-          <p className="mt-[8px] text-[12px] text-custom-silver">Testimonies</p>
+          <a className="md:text-[1.5vw] font-bold cursor-pointer hover:text-custom-primary">
+            Company
+          </a>
+          <a className="mt-[8px] text-[12px] text-custom-silver cursor-pointer hover:text-custom-primary">
+            About Us
+          </a>
+          <a className="mt-[8px] text-[12px] text-custom-silver cursor-pointer hover:text-custom-primary">
+            Blog
+          </a>
+          <a className="mt-[8px] text-[12px] text-custom-silver cursor-pointer hover:text-custom-primary">
+            Contact Us
+          </a>
+          <a className="mt-[8px] text-[12px] text-custom-silver cursor-pointer hover:text-custom-primary">Pricing</a>
+          <a className="mt-[8px] text-[12px] text-custom-silver cursor-pointer hover:text-custom-primary">Testimonies</a>
         </div>
 
         <div className="flex flex-col justify-start items-start mt-[16px]">
-          <p className="md:text-[1.5vw] font-bold">Support</p>
-          <p className="mt-[8px] text-[12px] text-custom-silver">Help center</p>
-          <p className="mt-[8px] text-[12px] text-custom-silver">
+          <a className="md:text-[1.5vw] font-bold cursor-pointer hover:text-custom-primary">Support</a>
+          <a className="mt-[8px] text-[12px] text-custom-silver cursor-pointer hover:text-custom-primary">Help center</a>
+          <a className="mt-[8px] text-[12px] text-custom-silver cursor-pointer hover:text-custom-primary">
             Terms Of Service
-          </p>
-          <p className="mt-[8px] text-[12px] text-custom-silver">Legal</p>
-          <p className="mt-[8px] text-[12px] text-custom-silver">
+          </a>
+          <a className="mt-[8px] text-[12px] text-custom-silver cursor-pointer hover:text-custom-primary">Legal</a>
+          <a className="mt-[8px] text-[12px] text-custom-silver cursor-pointer hover:text-custom-primary">
             Privacy Policy
-          </p>
-          <p className="mt-[8px] text-[12px] text-custom-silver">Status</p>
+          </a>
+          <a className="mt-[8px] text-[12px] text-custom-silver cursor-pointer hover:text-custom-primary">Status</a>
         </div>
 
         <div className="flex flex-col justify-start items-start mt-[16px]">
