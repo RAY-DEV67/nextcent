@@ -178,7 +178,7 @@ function LandingPage() {
               We reached here with our hard work and dedication
             </p>
           </div>
-          <div className="lg:w-[50%]">
+          <div className="lg:w-[50%] flex flex-col items-center mx-[16px]">
             <div className="flex justify-between">
               <HelpingLocalBusinessCard
                 icon={helpIcon1}
