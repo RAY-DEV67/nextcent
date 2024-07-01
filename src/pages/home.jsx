@@ -116,7 +116,7 @@ function LandingPage() {
       </div>
 
       <div className="mt-[64px] flex flex-col items-center">
-        <p className="text-[6vw] sm:text-[3.5vw] md:text-[4vw] font-semibold lg:text-[30px] leading-[10vw] md:leading-[50px] sm:leading-[30px] w-[90vw] lg:w-[45vw] sm:w-[60vw]">
+        <p className="text-[6vw] sm:text-[3.5vw] md:text-[4vw] font-semibold lg:text-[30px] leading-[8vw] md:leading-[50px] sm:leading-[30px] w-[90vw] lg:w-[45vw] sm:w-[60vw]">
           Manage your entire community in a single system
         </p>
         <p className="text-custom-gray mt-[16px]">
@@ -146,7 +146,7 @@ function LandingPage() {
         <div className="lg:w-[85%] flex flex-col lg:flex-row items-center justify-end lg:justify-between">
           <img src={hero2} alt="Hero" className="lg:w-[300px]" />
           <div className="flex flex-col lg:ml-[72px] items-center lg:items-start md:w-[60%] w-[95vw] mt-[16px] lg:mt-[0px]">
-            <p className="text-black text-[6vw] sm:text-[3.5vw] md:text-[4vw] sm:w-[500px] lg:text-left leading-[10vw] md:leading-[50px] sm:leading-[30px] lg:leading-[50px] text-center lg:text-[30px] font-semibold ">
+            <p className="text-black text-[6vw] sm:text-[3.5vw] md:text-[4vw] sm:w-[500px] lg:text-left leading-[8vw] md:leading-[50px] sm:leading-[30px] lg:leading-[50px] text-center lg:text-[30px] font-semibold ">
               The unseen of spending three years at Pixelgrade
             </p>
             <p className="my-[16px] lg:text-left w-[90%] lg:w-[100%]">
@@ -167,7 +167,7 @@ function LandingPage() {
       <div className="bg-custom-silver mt-[24px] z-2 py-[16px] flex flex-col lg:flex-row items-center justify-center lg:justify-center">
         <div className="lg:w-[85%] flex flex-col lg:flex-row items-center justify-end lg:justify-between">
           <div className="flex flex-col items-center lg:items-start md:w-[40%] w-[95vw]">
-            <p className="text-black w-[90%] text-[6vw] sm:text-[3.5vw] md:text-[4vw] sm:w-[400px] lg:w-[350px] lg:text-left leading-[10vw] md:leading-[50px] sm:leading-[30px] lg:leading-[40px] text-center lg:text-[30px] font-semibold">
+            <p className="text-black w-[90%] text-[6vw] sm:text-[3.5vw] md:text-[4vw] sm:w-[400px] lg:w-[350px] lg:text-left leading-[8vw] md:leading-[50px] sm:leading-[30px] lg:leading-[40px] text-center lg:text-[30px] font-semibold">
               Helping a local
               <span className="text-custom-primary">
                 {" "}
@@ -207,7 +207,7 @@ function LandingPage() {
         <div className="lg:w-[85%] flex flex-col lg:flex-row items-center justify-end lg:justify-between">
           <img src={hero3} alt="Hero" className="lg:w-[300px]" />
           <div className="flex flex-col lg:ml-[72px] items-center lg:items-start md:w-[60%] w-[95vw] mt-[16px] lg:mt-[0px]">
-            <p className="text-black text-[6vw] sm:text-[3.5vw] md:text-[4vw] lg:w-[500px] lg:text-left leading-[10vw] md:leading-[50px] sm:leading-[30px] text-center lg:text-[30px] font-semibold ">
+            <p className="text-black text-[6vw] sm:text-[3.5vw] md:text-[4vw] lg:w-[500px] lg:text-left leading-[8vw] md:leading-[50px] sm:leading-[30px] text-center lg:text-[30px] font-semibold ">
               How to design your site footer like we did
             </p>
             <p className="my-[16px] lg:text-left w-[90%] lg:w-[100%]">
@@ -248,7 +248,7 @@ function LandingPage() {
       </div>
 
       <div className="mt-[24px] flex flex-col justify-center w-[100%] items-center">
-        <p className="text-[6vw] sm:text-[3.5vw] md:text-[4vw] font-semibold lg:text-[30px] leading-[10vw] md:leading-[50px] sm:leading-[30px] w-[90vw] lg:w-[45vw] md:w-[60vw]">
+        <p className="text-[6vw] sm:text-[3.5vw] md:text-[4vw] font-semibold lg:text-[30px] leading-[8vw] md:leading-[50px] sm:leading-[30px] w-[90vw] lg:w-[45vw] md:w-[60vw]">
           Caring is the new marketing
         </p>
         <p className="text-custom-gray mt-[16px] mx-[16px] lg:w-[50%]">
@@ -275,7 +275,7 @@ function LandingPage() {
       </div>
 
       <div className="mt-[100px] bg-custom-silver py-[24px] flex flex-col items-center">
-        <p className="text-[6vw] sm:text-[3.5vw] md:text-[4vw] font-semibold lg:text-[30px] leading-[10vw] md:leading-[50px] sm:leading-[30px] w-[90vw] lg:w-[35vw] md:w-[60vw]">
+        <p className="text-[6vw] sm:text-[3.5vw] md:text-[4vw] font-semibold lg:text-[30px] leading-[8vw] md:leading-[50px] sm:leading-[30px] w-[90vw] lg:w-[35vw] md:w-[60vw]">
           Pellentesque suscipit fringilla libero eu.
         </p>
         <div className="text-white mt-[32px] flex items-center bg-custom-primary px-[32px] py-[12px] rounded-[5px]">
